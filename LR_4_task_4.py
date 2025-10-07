@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split, cross_val_score
 from utilities import visualize_classifier
 
 # Вхідний файл, який містить дані
-input_file = 'аываываыв.txt'
+input_file = 'data_multivar_nb (1).txt'
 
 # Завантаження даних із вхідного файлу
 data = np.loadtxt(input_file, delimiter=',')
