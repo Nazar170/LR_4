@@ -6,7 +6,7 @@ from sklearn.metrics import roc_curve, roc_auc_score
 # -------------------------------
 # 1. Завантаження CSV
 # -------------------------------
-df = pd.read_csv("data_metrics.csv")
+df = pd.read_csv("data_metrics (1).csv")
 print("Перші рядки з файлу:")
 print(df.head())
 
@@ -129,3 +129,4 @@ plt.title("ROC-криві моделей")
 plt.grid(True)
 plt.tight_layout()
 plt.show()
+
